@@ -1,0 +1,107 @@
+/* Стили для админки */
+
+/* Шапка */
+header{
+	background: #B0B0B0;
+	height: 110px;
+	color: #444444;
+}
+header a{
+	color:#444444;
+}
+.auth, .auth a {
+	color:#444444;
+}
+.home {
+	border-bottom: 2px solid #444444;
+}
+.logo {
+	font-size: 28px;
+	font-weight: 900;
+	color: white;
+	text-decoration: none;
+}
+.logo a:hover {
+	text-decoration: none;
+}
+menu a:hover{
+	border-bottom: 2px solid #444444;
+}
+.float-right{
+	float: right;
+}
+.hello {
+	text-align: right;
+}
+
+/* Товары */
+.table_goods {
+	border-collapse:collapse;
+	width:100%;
+	margin:30px 0;
+}
+.table_goods td,  .table_goods th{
+	border: 1px solid #444444;
+}
+.green-button {
+	text-decoration:none;
+	background-color:#59ff1a;
+	margin-left:15px;
+}
+.button-red {
+	background-color:#ff4d2f;
+}
+.button-delete{
+	background-color:#ff4d2f;
+	width:40px;
+	padding-left:5px;
+}
+.w30{
+	width:30px;
+	text-align:center;
+}
+.padding-left-5{padding-left:5px}
+
+.comment_button{
+	width:200px;
+}
+
+/*Новости*/
+.cat-button{
+ 	background-color:#59ff1a;
+	text-decoration:none;
+	padding-top: 7px;
+	height: 28px;
+}
+
+/* Пользователи */
+.search-form{
+	margin-top:20px;
+	float:right;
+}
+#ps, #ps1{
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+
+/* Для прижатия фурера к низу страницы: */
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	margin: 0;
+}
+main {
+	flex-grow: 1;
+}
+
+/* Футер */
+footer{
+	bottom:0;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}

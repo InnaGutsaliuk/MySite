@@ -1,0 +1,1123 @@
+24-07-2019 21:09:45ERROR QUERY: 
+        SELECT *
+        FROM `users`
+        WHERE `login` = 'test1'
+        AND `password` = 'asZPejceu8zy6'
+        AND `activate` = 1
+    IN LINE: 7IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\cab\authorization.phpUnknown column 'activate' in 'where clause'
+
+28-07-2019 13:52:17ERROR QUERY: 
+                UPDATE `users` SET
+                `ip`         = '127.0.0.1',
+                `user_agent` = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'
+            IN LINE: 22IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\cab\authorization.phpUnknown column 'user_agent' in 'field list'
+
+28-07-2019 13:57:16ERROR QUERY: 
+                UPDATE `users` SET
+                `ip`         = '127.0.0.1',
+                `user_agent` = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'
+                WHERE `id` = '22'
+            IN LINE: 23IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\cab\authorization.phpUnknown column 'user_agent' in 'field list'
+
+28-07-2019 13:58:14ERROR QUERY: 
+                UPDATE `users` SET
+                `ip`         = '127.0.0.1',
+                `user_agent` = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'
+                WHERE `id` = '22'
+            IN LINE: 23IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\cab\authorization.phpUnknown column 'user_agent' in 'field list'
+
+28-07-2019 13:59:13ERROR QUERY: 
+                UPDATE `users` SET
+                `ip`         = '127.0.0.1',
+                `user_agent` = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'
+                WHERE `id` = '22'
+            IN LINE: 23IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\cab\authorization.phpUnknown column 'user_agent' in 'field list'
+
+28-07-2019 15:39:39ERROR QUERY: 
+            INSERT INTO `users` SET
+            `login` = 'test8',
+            `email` = 'Innlina@mail.ru',
+            `password` = 'asZPejceu8zy6',
+            `age` = '13',
+            `hash` = 'asDkQc8V2zJts'
+        IN LINE: 66IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\cab\registration.phpField 'ip' doesn't have a default value
+
+28-07-2019 15:41:37ERROR QUERY: 
+            INSERT INTO `users` SET
+            `login`      = 'test8',
+            `email`      = 'Innlina@mail.ru',
+            `password`   = 'asZPejceu8zy6',
+            `age`        = '13',
+            `hash`       = 'asDkQc8V2zJts'б
+            `ip`         = '',
+            `user_agent` = ''
+        IN LINE: 66IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\cab\registration.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'б
+            `ip`         = '',
+            `user_agent` = ''' at line 6
+
+01-08-2019 21:55:57ERROR QUERY: 
+		SELECT *
+		FROM `user`
+		WHERE `id` = '26'
+		LIMIT 1
+	IN LINE: 6IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\allpages.phpTable 'main.user' doesn't exist
+
+01-08-2019 21:56:48ERROR QUERY: 
+		SELECT *
+		FROM `user`
+		WHERE `id` = '26'
+		LIMIT 1
+	IN LINE: 6IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\allpages.phpTable 'main.user' doesn't exist
+
+01-08-2019 21:56:51ERROR QUERY: 
+		SELECT *
+		FROM `user`
+		WHERE `id` = '26'
+		LIMIT 1
+	IN LINE: 6IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\allpages.phpTable 'main.user' doesn't exist
+
+01-08-2019 21:56:52ERROR QUERY: 
+		SELECT *
+		FROM `user`
+		WHERE `id` = '26'
+		LIMIT 1
+	IN LINE: 6IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\allpages.phpTable 'main.user' doesn't exist
+
+01-08-2019 21:56:53ERROR QUERY: 
+		SELECT *
+		FROM `user`
+		WHERE `id` = '26'
+		LIMIT 1
+	IN LINE: 6IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\allpages.phpTable 'main.user' doesn't exist
+
+01-08-2019 21:56:54ERROR QUERY: 
+		SELECT *
+		FROM `user`
+		WHERE `id` = '26'
+		LIMIT 1
+	IN LINE: 6IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\allpages.phpTable 'main.user' doesn't exist
+
+01-08-2019 21:56:55ERROR QUERY: 
+		SELECT *
+		FROM `user`
+		WHERE `id` = '26'
+		LIMIT 1
+	IN LINE: 6IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\allpages.phpTable 'main.user' doesn't exist
+
+04-08-2019 00:12:27ERROR QUERY: 
+				INSERT INTO `comments` SET
+				`login`   = 'innlina',
+				`email`   = 'Innlina@mail.ru',
+				`comment` = 'фывмас',
+				`date`    = now(),
+			IN LINE: 25IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\comments\add.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+
+08-08-2019 20:06:24ERROR QUERY: 
+    SELаECT *
+    FROM `users`
+    WHERE `id` = '19'
+    LIMIT 1
+IN LINE: 5IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\edit.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELаECT *
+    FROM `users`
+    WHERE `id` = '19'
+    LIMIT 1' at line 1
+
+08-08-2019 21:14:44ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(date, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 54IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(date, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:20:45ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 54IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:20:46ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 54IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:20:46ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 54IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:20:46ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 54IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:20:46ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 54IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:24:26ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 60IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:37:29ERROR QUERY: 
+    		SELECT *
+    		FROM `users`
+    		DATE_FORMAT(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC
+		IN LINE: 60IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`date`, '%d.%m.%Y')
+    		ORDER BY `date` DESC' at line 3
+
+08-08-2019 21:53:19ERROR QUERY: 
+			SELECT *
+			DATE_FORMAT(date, '%d.%m.%Y %H:%i') as new_date
+			FROM `users`
+    		ORDER BY `date` DESC
+		IN LINE: 61IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE_FORMAT(date, '%d.%m.%Y %H:%i') as new_date
+			FROM `users`
+    		ORDER BY' at line 2
+
+08-08-2019 22:27:48ERROR QUERY: 
+				SELECT COUNT(*) as `count`,
+				DATE_FORMAT(`date`, '%d.%m.%Y %H:%i') as `date`
+    			FROM `users`
+    			WHERE `login` LIKE '%st%'
+    			ORDER BY `date` DESC
+			IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpIn aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'main.users.date'; this is incompatible with sql_mode=only_full_group_by
+
+08-08-2019 22:28:36ERROR QUERY: 
+				SELECT COUNT(*) as `count`,
+				DATE_FORMAT(`date`, '%d.%m.%Y %H:%i') as `date`
+    			FROM `users`
+    			WHERE `login` LIKE '%st%'
+    			ORDER BY `date` DESC
+			IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpIn aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'main.users.date'; this is incompatible with sql_mode=only_full_group_by
+
+08-08-2019 22:28:45ERROR QUERY: 
+				SELECT COUNT(*) as `count`,
+				DATE_FORMAT(`date`, '%d.%m.%Y %H:%i') as `date`
+    			FROM `users`
+    			WHERE `login` LIKE '%st%'
+    			ORDER BY `date` DESC
+			IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\users\main.phpIn aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'main.users.date'; this is incompatible with sql_mode=only_full_group_by
+
+09-08-2019 18:04:40ERROR QUERY: 
+				INSERT INTO `goods` SET
+				`category`         = 'Техника для кухни',
+				`title`            = 'dhgnfn',
+				`article`          = '620',
+				`available`        = '2',
+				`description`      = 'dgnxgnxgng',
+				`price`            = '0',
+				`img`              = ''
+				`meta_title`       = 'dhgnfn',
+				`meta_description` = 'dhgnfn',
+				`meta_keywords`    = 'dhgnfn'
+			IN LINE: 72IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\goods\add.phpYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`meta_title`       = 'dhgnfn',
+				`meta_description` = 'dhgnfn',
+				`meta_ke' at line 9
+
+09-08-2019 18:05:23ERROR QUERY: 
+				INSERT INTO `goods` SET
+				`category`         = 'Техника для кухни',
+				`title`            = 'dhgnfn',
+				`article`          = '620',
+				`available`        = '2',
+				`description`      = 'dgnxgnxgng',
+				`price`            = '0',
+				/*`img`              = ''*/
+				`meta_title`       = 'dhgnfn',
+				`meta_description` = 'dhgnfn',
+				`meta_keywords`    = 'dhgnfn'
+			IN LINE: 72IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\goods\add.phpField 'img' doesn't have a default value
+
+09-08-2019 18:05:55ERROR QUERY: 
+				INSERT INTO `goods` SET
+				`category`         = 'Техника для кухни',
+				`title`            = 'dhgnfn',
+				`article`          = '620',
+				`available`        = '2',
+				`description`      = 'dgnxgnxgng',
+				`price`            = '0',
+				`meta_title`       = 'dhgnfn',
+				`meta_description` = 'dhgnfn',
+				`meta_keywords`    = 'dhgnfn'
+			IN LINE: 71IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\goods\add.phpField 'img' doesn't have a default value
+
+14-08-2019 19:44:25\nERROR QUERY: 
+				INSERT `news_category` INTO
+				`name` = 'Криминал'
+			\nIN LINE: 9\nIN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\news\add_cat.php\n\n
+
+14-08-2019 19:44:47ERROR QUERY: 
+				INSERT `news_category` INTO
+				`name` = 'Криминал'
+			IN LINE: 9IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\news\add_cat.php
+
+14-08-2019 19:46:02ERROR QUERY: 
+				INSERT  INTO `news_category` SET 
+				`name` = 'Криминал'
+			IN LINE: 9IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\news\add_cat.php
+
+15-08-2019 21:01:34ERROR QUERY: 
+			UPDATE INTO `news_cat`
+			SET `name` = 'Криминалллл'
+			WHERE `id` = '7'
+		IN LINE: 27IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\news\edit_cat.php
+
+16-08-2019 12:51:01ERROR QUERY: 
+    SELECT *
+    FROM (`books` JOIN `books_author`) LRFT JOIN `books2books_author`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 12:52:20ERROR QUERY: 
+    SELECT *
+    FROM `books` JOIN `books_author` LEFT JOIN `books2books_author`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 12:52:21ERROR QUERY: 
+    SELECT *
+    FROM `books` JOIN `books_author` LEFT JOIN `books2books_author`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 12:52:46ERROR QUERY: 
+    SELECT *
+    FROM `books` LEFT JOIN `books_author` LEFT JOIN `books2books_author`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 13:07:25ERROR QUERY: 
+    SELECT *
+    FROM `books`, `books_author `
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 13:08:15ERROR QUERY: 
+    SELECT *
+    FROM `books` JOIN `books_author `
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 13:09:43ERROR QUERY: 
+    SELECT *
+    FROM `books` LEFT JOIN `books2books_author`
+    ON books.id = books2books_author.id_books
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 13:11:14ERROR QUERY: 
+    SELECT *
+    FROM `books` LEFT JOIN `books2books_author`
+    ON `id` = `id_books`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+16-08-2019 14:05:56ERROR QUERY: 
+    SELECT *
+    GROUP_CONCAT(books_author.name) 
+FROM `books` LEFT JOIN `books2books_author`
+ON `id` = `id_book`
+LEFT JOIN `books_author`
+ON books2books_author.id_author = books_author.id
+GROUP BY books.title
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 00:00:51ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 00:00:56ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 00:04:15ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 00:05:32ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 00:05:33ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 17:49:26ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 17:50:22ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:02:55ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:05:51ERROR QUERY: SELECT books.title, books.price, books.description, GROUP_CONCAT(books_author.name SEPARATOR \', \')
+
+FROM books LEFT JOIN books2books_author
+		ON books.id = books2books_author.id_book
+	LEFT JOIN books_author
+		ON books2books_author.id_author = books_author.id
+GROUP BY books.title, books.price, books.descriptionIN LINE: 16IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:53:44ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:54:02ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:54:02ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:54:03ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:54:03ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:54:03ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:55:44ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, `books_author.name`
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:55:46ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, `books_author.name`
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:55:46ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, `books_author.name`
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:55:46ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, `books_author.name`
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 18:55:47ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, `books_author.name`
+	FROM `books` 
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:00:16ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books`
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:00:52ERROR QUERY: 
+	SELECT *
+	FROM `books`
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:01:45ERROR QUERY: 
+	SELECT books.*, books_author.name
+	FROM `books`
+		LEFT JOIN `books2books_author`
+			ON `books.id` = `books2books_author.id_book`
+		LEFT JOIN `books_author`
+			ON `books2books_author.id_author` = `books_author.id`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:03:10ERROR QUERY: 
+	SELECT *
+	FROM `books` LEFT JOIN `books2books_author` ON `books.id` = `books2books_author.id_book` 		LEFT JOIN `books_author` ON `books2books_author.id_author` = `books_author.id`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:04:25ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`
+	FROM `books` 
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:04:44ERROR QUERY: 
+	SELECT `books.title` `books.price` `books.description`
+	FROM `books` 
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:05:35ERROR QUERY: 
+	SELECT `title`, `price`, `description`
+	FROM `books` 
+	LEFT JOIN `books2books_author`
+		ON `books.id` = `books2books_author.id_book`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:06:13ERROR QUERY: 
+	SELECT `title`, `price`, `description`
+	FROM `books` as t1
+	LEFT JOIN `books2books_author` as t2
+		ON `t1.id` = `t2.id_book`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:06:33ERROR QUERY: 
+	SELECT `title`, `price`, `description`
+	FROM `books`
+	LEFT JOIN `books2books_author`
+		ON `books.id` = `books2books_author.id_book`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:06:49ERROR QUERY: 
+	SELECT `title`, `price`, `description`
+	FROM `books`
+	LEFT JOIN `books2books_author`
+		
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:13:32ERROR QUERY: 
+	SELECT `title`, `price`, `description`, `name`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books`
+	LEFT JOIN `books_author`
+	ON books.id = books_author.id_book
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:13:45ERROR QUERY: 
+	SELECT `title`, `price`, `description`, `name`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books`
+	LEFT JOIN `books_author`
+	ON books.id = books_author.id_book
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:14:44ERROR QUERY: 
+	SELECT `title`, `price`, `description`, `name`
+	FROM `books`
+	LEFT JOIN `books_author`
+	ON books.id = books_author.id_book
+	GROUP BY `books.title`, `books.price`, `books.description`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:15:12ERROR QUERY: 
+	SELECT `title`, `price`, `description`, `name`, GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books`
+	LEFT JOIN `books_author`
+	ON books.id = books_author.id_book
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:17:29ERROR QUERY: 
+	SELECT GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books`
+	LEFT JOIN `books_author`
+	ON books.id = books_author.id_book
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:23:01ERROR QUERY: 
+	SELECT `title`, GROUP_CONCAT(`name`) as `name`
+	FROM `test` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id`
+	GROUP BY `title`
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:23:15ERROR QUERY: 
+	SELECT `title`
+	FROM `test` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id`
+	GROUP BY `title`
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:23:22ERROR QUERY: 
+	SELECT `title`
+	FROM `test` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:23:35ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:23:55ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:24:37ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:24:38ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:24:38ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:24:39ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:24:39ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+	
+	
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:25:12ERROR QUERY: 
+	SELECT `title`
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:25:35ERROR QUERY: 
+	SELECT *
+	FROM `books` LEFT JOIN `books_author`
+		ON `books.id` = `books_author.id_book`
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:25:48ERROR QUERY: 
+	SELECT GROUP_CONCAT(`books_author.name` SEPARATOR ', ')
+	FROM `books`
+	LEFT JOIN `books_author`
+	ON books.id = books_author.id_book
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+17-08-2019 19:26:14ERROR QUERY: 
+	SELECT `books.title`, `books.price`, `books.description`
+	FROM `books`
+	LEFT JOIN `books_author`
+	ON books.id = books_author.id_book
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\main.php
+
+19-08-2019 12:45:25ERROR QUERY: 
+				INSERT INTO `books` SET
+				`title`            = 'Сборник сказок',
+				`description`      = 'Сборник сказок для детей',
+				`price`            = '15.15',
+				`img`              = '/uploaded/20190819-124524img18067.jpg',
+				`meta_title`       = 'Сборник сказок',
+				`meta_description` = 'Сборник сказок',
+				`meta_keywords`    = 'Сборник сказок'
+			IN LINE: 83IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+19-08-2019 12:46:40ERROR QUERY: 
+				INSERT INTO `books` SET
+				`title`            = 'Сборник сказок',
+				`description`      = 'Сборник сказок для детей',
+				`price`            = '15.15',
+				`img`              = '/uploaded/20190819-124640img15299.jpg',
+				`meta-title`       = 'Сборник сказок',
+				`meta-description` = 'Сборник сказок',
+				`meta-keywords`    = 'Сборник сказок'
+			IN LINE: 83IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+19-08-2019 12:47:55ERROR QUERY: 
+				INSERT INTO `books_author` SET 
+				`name` = ''
+			IN LINE: 88IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+19-08-2019 12:51:22ERROR QUERY: 
+    	SELECT `id`, `title`, `price`, `description`, `img`, GROUP_CONCAT(`name` SEPARATOR ', ') as 'name'
+	FROM `books` LEFT JOIN `books2books_author`
+		ON books.id = books2books_author.id_book
+	LEFT JOIN `books_author`
+		ON books2books_author.id_author = books_author.id
+	GROUP BY `id`, `title`, `price`, `description`, `img`
+	IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\main.php
+
+19-08-2019 12:51:38ERROR QUERY: 
+    	SELECT `id`, `title`, `price`, `description`, `img`, GROUP_CONCAT(`name` SEPARATOR ', ') as 'name'
+	FROM `books` LEFT JOIN `books2books_author`
+		ON books.id = books2books_author.id_book
+	LEFT JOIN `books_author`
+		ON books2books_author.id_author = books_author.id
+	GROUP BY title`, `price`, `description`, `img`
+	IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\main.php
+
+19-08-2019 12:51:48ERROR QUERY: 
+    	SELECT `title`, `price`, `description`, `img`, GROUP_CONCAT(`name` SEPARATOR ', ') as 'name'
+	FROM `books` LEFT JOIN `books2books_author`
+		ON books.id = books2books_author.id_book
+	LEFT JOIN `books_author`
+		ON books2books_author.id_author = books_author.id
+	GROUP BY title`, `price`, `description`, `img`
+	IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\main.php
+
+19-08-2019 12:52:32ERROR QUERY: 
+    	SELECT books.id, `title`, `price`, `description`, `img`, GROUP_CONCAT(`name` SEPARATOR ', ') as 'name'
+	FROM `books` LEFT JOIN `books2books_author`
+		ON books.id = books2books_author.id_book
+	LEFT JOIN `books_author`
+		ON books2books_author.id_author = books_author.id
+	GROUP BY `title`, `price`, `description`, `img`
+	IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\main.php
+
+22-08-2019 20:54:21ERROR QUERY: 
+    	SELECT `name`, books_author.img, books_author.id, GROUP_CONCAT(`title` SEPARATOR ', ') as 'title'
+    	FROM `books_author` LEFT JOIN `books2books_author`
+		ON books_author.id = books2books_author.id_author
+	LEFT JOIN `books`
+		ON books2books_author.id_books = books.id
+	GROUP BY `name`, books_author.img, books_author.id
+IN LINE: 2IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\authors_all.php
+
+22-08-2019 21:03:42ERROR QUERY: 
+	SELECT `name`, `biogr`, books_author.img, books_author.id, GROUP_CONCAT(`title` SEPARATOR ', ') as 'title'
+    	FROM `books_author` LEFT JOIN `books2books_author`
+		ON books_author.id = books2books_author.id_author
+	LEFT JOIN `books`
+		ON books2books_author.id_book = books.id
+		
+	WHERE books_author.id = '4'
+	GROUP BY `name`, `biogr`, books_author.img, books_author.id, 
+	
+IN LINE: 9IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\author.php
+
+22-08-2019 21:39:56ERROR QUERY: 
+	SELECT `title`, `description`, books.img, GROUP_CONCAT(`name` SEPARATOR ', ') as 'name'
+    	FROM `books` LEFT JOIN `books2books_author`
+		ON books.id = books2books_author.id_book
+	LEFT JOIN `books_author`
+		ON books2books_author.id_author = books_author.id
+		
+	WHERE `title` = 'сказки'
+	GROUP BY `name`, `biogr`, books_author.img, books_author.id
+	LIMIT 1
+	
+IN LINE: 9IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\book.php
+
+23-08-2019 18:19:22ERROR QUERY: 
+SELECT *
+FROM `books_author`
+WHERE `name` = Крылов И.А.
+LIMIT 1
+IN LINE: 39IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\author.php
+
+23-08-2019 18:19:59ERROR QUERY: 
+SELECT *
+FROM `books_author`
+WHERE `name` = Крылов И.А.
+LIMIT 1
+IN LINE: 39IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\author.php
+
+31-08-2019 20:50:52ERROR QUERY: 
+    	SELECT books.id, `title`, `price`, `description`, `img`, GROUP_CONCAT(`name` SEPARATOR ', ') as 'name'
+	FROM `books` LEFT JOIN `books2books_author`
+		ON books.id = books2books_author.id_book
+	LEFT JOIN `books_author`
+		ON books2books_author.id_author = books_author.id
+	GROUP BY books.id, `title`, `price`, `description`, `img`
+	IN LINE: 41IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\main.php
+
+02-09-2019 16:27:41ERROR QUERY: 
+	SELECT `img`, `title`
+	FROM `books` LEFT JOIN `books2books_author`
+		ON `books2books_author.id_book` = `books.id`
+        WHERE `books2books_author.id_author` = '2'
+IN LINE: 37IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\books\author.php
+
+03-09-2019 14:44:18ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '1',
+				IN LINE: 117IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 14:45:35ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '1',
+				IN LINE: 117IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 14:47:59ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '1',
+				IN LINE: 117IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 14:48:55ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '1',
+				IN LINE: 117IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 14:49:17ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '1',
+				IN LINE: 117IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 14:49:27ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '1',
+				IN LINE: 117IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 14:51:55ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '3',
+				IN LINE: 117IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 16:14:24ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '2',
+				IN LINE: 120IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 16:18:43ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '0',
+					`id_author` = '2',
+				IN LINE: 128IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+03-09-2019 16:19:10ERROR QUERY: 
+					INSERT INTO `books2books_author` SET 
+					`id_book` = '44',
+					`id_author` = '2',
+				IN LINE: 128IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\add.php
+
+04-09-2019 17:24:05ERROR QUERY: 
+				DELETE FROM `books2books_author`
+				WHERE `id_book` = '1',
+			IN LINE: 149IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\edit.php
+
+05-09-2019 14:02:50ERROR QUERY: 
+				DELETE FROM `books2books_author`
+				WHERE `id_book` = '1',
+			IN LINE: 149IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\edit.php
+
+05-09-2019 14:04:40ERROR QUERY: 
+				DELETE FROM `books2books_author`
+				WHERE `id_book` = '1',
+			IN LINE: 149IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\edit.php
+
+05-09-2019 14:05:51ERROR QUERY: 
+				DELETE FROM `books2books_author`
+				WHERE `id_book` = '3',
+			IN LINE: 149IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\books\edit.php
+
+05-09-2019 15:03:30ERROR QUERY: 
+				INSERT INTO `news` SET
+				`category`         = 'Животные',
+				`title`            = 'Красная книга',
+				`text`             = 'Давайте оберегать животных, занесенных в красную книгу',
+				`date`             = now(),
+				`img`              = '/uploaded/20190905-150330img75038.jpg',
+				`meta_title`       = 'Красная книга',
+				`meta_description` = 'Красная книга',
+				`meta_keywords`    = 'Красная книга'
+			IN LINE: 84IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\news\add.php
+
+05-09-2019 15:05:27ERROR QUERY: 
+				INSERT INTO `news` SET
+				`category`         = 'Животные',
+				`title`            = 'Красная книга',
+				`text`             = 'Давайте оберегать животных, занесенных в красную книгу',
+				`date`             = now(),
+				`img`              = '/uploaded/20190905-150527img12617.jpg',
+				`meta_title`       = 'Красная книга',
+				`meta_description` = 'Красная книга',
+				`meta_keywords`    = 'Красная книга'
+			IN LINE: 84IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\news\add.php
+
+05-09-2019 15:08:08ERROR QUERY: 
+				INSERT INTO `news` SET
+				`category`         = 'Животные',
+				`title`            = 'Красная книга',
+				`text`             = 'Давайте оберегать животных, занесенных в красную книгу',
+				`img`              = '/uploaded/20190905-150808img77628.jpg',
+				`meta_title`       = 'Красная книга',
+				`meta_description` = 'Красная книга',
+				`meta_keywords`    = 'Красная книга'
+			IN LINE: 83IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\admin\news\add.php
+
+06-09-2019 14:42:37ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:48ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:49ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:49ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:49ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:49ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:49ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:49ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:49ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:50ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:43:50ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:44:47ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:44:48ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:44:48ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:45:11ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 21IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:46:17ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 23IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 14:47:10ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		LIMIT -3,3
+	IN LINE: 24IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 15:06:34ERROR QUERY: 
+   		SELECT *
+   		FROM `news`
+   		WHERE `category` = Наука
+	IN LINE: 25IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 20:16:02ERROR QUERY: 
+	SELECT *
+	FROM `news`
+	
+	LIMIT -2, 2
+IN LINE: 26IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 20:16:44ERROR QUERY: 
+	SELECT *
+	FROM `news`
+	
+	LIMIT -2, 2
+IN LINE: 26IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
+06-09-2019 20:17:48ERROR QUERY: 
+	SELECT *
+	FROM `news`
+	
+	LIMIT -2, 2
+IN LINE: 26IN FILE: C:\OpenServer2019\OSPanel\domains\MySite\modules\news\main.php
+
